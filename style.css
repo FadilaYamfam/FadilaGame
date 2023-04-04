@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkred;
+}
+
+header{
+    background: white;
+    padding: 10px;
+}
+
+h1{
+    color: maroon;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.score{
+    border: 3px solid seagreen;
+    width: 230px;
+    margin: 25px auto;
+    font-size: 35px;
+    border-radius: 60px;
+    text-align: center;
+    position: relative;
+    padding: 15px 25px;
+}
+
+#UserScore{
+    position: absolute;
+    left: 50px;
+}
+
+#CompScore{
+    position: absolute;
+    right: 50px;
+}
+
+.badge{
+    background-color: indianred;
+    color: white;
+    font-size: 15px;
+}
+
+#user{
+    position: absolute;
+    top: 30px;
+    left: -15px;
+}
+
+#computer{
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+
+.result{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.result > p{
+    padding: 20px;
+    color: aliceblue;
+}
+
+.choices{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.choice{
+    display: inline-block;
+    border: 4px solid firebrick;
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 20px;
+    transition: all 0.3s ease-in;
+}
+
+
+.choice:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#action{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 60px;
+    font-size: 22px;
+    color: aliceblue;
+}
